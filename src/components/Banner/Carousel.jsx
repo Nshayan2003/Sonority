@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AlbumCarousel from "./AlbumCarousel";
-import NewAlbumsCarousel from "../NewAlbum/NewAlbumCarousel";
+import NewAlbumsCarousel from "./NewAlbumCarousel";
 import { Divider } from "@mui/material";
 import { fetchNewAlbums, fetchTopAlbums, fetchSongs } from "../api";
 import Genre from "../categories/genre";
@@ -32,6 +32,8 @@ const Carousel = () => {
       <Divider variant="middle" style={{ background: "#34C94B" }} />
 
       <NewAlbumsCarousel albums={newAlbums} />
+      <Divider variant="middle" style={{ background: "#34C94B" }} />
+      <Genre albums={songs} />
     </div>
   );
 };
