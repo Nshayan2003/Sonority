@@ -29,6 +29,9 @@ const Carousel = () => {
   return (
     <div className="carousel-container" style={{ width: "100%" }}>
       <AlbumCarousel albums={topAlbums} />
+      <Divider variant="middle" style={{ background: "#34C94B" }} />
+
+      <NewAlbumsCarousel albums={newAlbums} />
     </div>
   );
 };
