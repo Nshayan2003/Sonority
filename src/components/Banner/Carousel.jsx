@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AlbumCarousel from "./AlbumCarousel";
-import NewAlbumsCarousel from "./NewAlbumCarousel";
+import NewAlbumsCarousel from "../NewAlbum/NewAlbumCarousel";
 import { Divider } from "@mui/material";
 import { fetchNewAlbums, fetchTopAlbums, fetchSongs } from "../api";
 import Genre from "../categories/genre";

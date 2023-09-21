@@ -6,9 +6,7 @@ import { Divider, Grid, Button } from "@mui/material";
 import "swiper/css/navigation";
 import "swiper/swiper-bundle.css";
 import "./genre.css";
-
 SwiperCore.use([Navigation]);
-
 const Genre = ({ albums }) => {
   const [showAll, setShowAll] = useState(false);
   const [selectedGenre, setSelectedGenre] = useState("all");
