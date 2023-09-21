@@ -10,7 +10,7 @@ function App () {
       <Header />
       <Banner />
       <Carousel />
-      
+      <Faqs />
     </div>
   )
 }
