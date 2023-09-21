@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Set your desired background color */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Adjust the padding as needed */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Apply styles to your components */
+.Header,
+.Banner,
+.Carousel,
+.Faqs {
+  width: 100%;
+  max-width: 100%; /* Adjust the max-width as needed */
+  margin-bottom: 20px; /* Adjust the margin between components */
+  box-sizing: border-box;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  /* Adjust other styles as needed for mobile */
+  .Header,
+  .Banner,
+  .Carousel,
+  .Faqs {
+    margin-bottom: 10px;
+  }
+}

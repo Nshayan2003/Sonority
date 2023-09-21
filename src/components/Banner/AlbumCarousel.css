@@ -1,0 +1,132 @@
+/* Add your custom styles here */
+.album-carousel {
+  right: -100px;
+  left: -25px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.album-card {
+  width: 120px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+  /* Adjust the gap between cards */
+}
+.album-card:hover {
+  transform: scale(1.05);
+}
+
+.album-image {
+  width: 167px;
+  height: 205px;
+  border-radius: 10px; /* Adjust border-radius */
+  overflow: hidden;
+}
+.album-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; /* Add border-radius for the image */
+}
+.album-info {
+  background-color: #fff;
+  width: 153px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  /* Set width to 100% */
+  border-bottom-left-radius: 10px; /* Border radius for the bottom left corner */
+  border-bottom-right-radius: 10px;
+}
+.swiper-divider {
+  background-color: #34c94b; /* Green color */
+  height: 2px; /* Height of the divider */
+  margin: 8px 0; /* Adjust margin as needed */
+}
+
+.album-follows {
+  background-color: #121212;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  color: #fff;
+  width: 80px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 2px;
+  line-height: 21px;
+  letter-spacing: 0px;
+
+  margin-top: auto;
+}
+.album-follows span {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+.album-name {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 100%; /* Set width to 100% */
+}
+
+/* Add your custom styles here */
+/* Add your custom styles here */
+/* Add your custom styles here */
+
+/* Add your custom styles here */
+
+.swiper-button-next {
+  background-image: url("../../assets/rightb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  top: 50%; /* Adjust position from top */
+  transform: translateY(-50%);
+  right: -90px; /* Adjust distance from right */
+}
+
+.swiper-button-prev {
+  background-image: url("../../assets/button.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  top: 50%; /* Adjust position from top */
+  transform: translateY(-50%);
+  left: -70px; /* Adjust distance from left */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: ""; /* To hide the default arrow */
+}
+
+.swiper-button-next {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
