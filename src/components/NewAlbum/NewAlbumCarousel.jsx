@@ -5,8 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Divider, Grid, Button } from "@mui/material"; // Import Grid and Button from Material UI
 import "swiper/css/navigation";
 import "swiper/swiper-bundle.css";
-import "./AlbumCarousel.css";
-import "./AlbumCard.css"; // Import your custom styles for the carousel
+// Import your custom styles for the carousel
 
 SwiperCore.use([Navigation]);
 

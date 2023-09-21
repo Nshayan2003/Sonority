@@ -1,0 +1,14 @@
+/* TopAlbumsCarousel.css */
+/* Add your custom styles here */
+.carousel-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  width: 100%;
+  padding: 12px;
+  width: 100%;
+  gap: 12px;
+}
+
+/* Rest of your styles for Top Albums */
